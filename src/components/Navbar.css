@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.Header {
+  background-color: #FFFFFF;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  font-size: 15px;
+}
+nav ul li {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.29px;
+  letter-spacing: -0.015em;
+  text-align: center;
+}
+.logo {
+  font-family: Comfortaa;
+  font-size: 28.44px;
+  font-weight: 400;
+  line-height: 31.72px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  /* margin-left: 50px; */
+}
+.logo h1 span{
+    margin-right: 8px;
+}
+svg{
+    color: #000000;
+    font-weight: 500;
+
+}
+.loginbutton {
+  /* margin-right: 50px; */
+  display: flex;
+  gap: 10px;
+}
+
+.loginbutton button {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  /* line-height: 18.29px; */
+  letter-spacing: -0.015em;
+  text-align: center;
+  width: 130px;
+  height: 40px;
+  top: 30px;
+  left: 1320px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid #18A0FB
+}
+.loginbutton button:nth-child(1) {
+    background-color: white;
+    color: #18A0FB; 
+    
+    border: 1px solid #18A0FB; 
+}
+.loginbutton button:nth-child(2) {
+    background-color: #18A0FB;
+    color: white; 
+    
+    border: 1px solid #18A0FB; 
+}

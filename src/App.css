@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Montserrat;
+}
+button{
+    font-family: Montserrat;
+    font-size: 17px;
+    background-color: #18A0FB;
+    color: white; 
+    width: 192px;
+height: 52px;
+gap: 0px;
+border-radius: 6px 0px 0px 0px;
+opacity: 0px;
+
+    border: 1px solid #18A0FB;
+    border-radius: 6px;
+    cursor: pointer;
+}
+li{
+
+    cursor: pointer;
+}
